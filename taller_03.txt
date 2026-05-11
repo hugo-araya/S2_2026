@@ -1,0 +1,20 @@
+
+Inicio
+	Entero n, m, p, cont, z, numero
+	n = 10
+	m = 0
+	p = 0
+	cont = 0
+	Mientras cont < n
+		Leer numero
+		z = numero % 2
+		Si z == 0 Entonces
+			p = p + 1
+		Si no
+			m = m + 1
+		Fin Si
+		cont = cont + 1
+	Fin Mientras
+	Escribir p
+	Escribir m
+Fin

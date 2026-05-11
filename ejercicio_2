@@ -1,5 +1,5 @@
 Inicio
-	Entero n, res, cant
+	Entero n, res, cant, i
 	Leer n
 	cant = 0
 	res = n
@@ -8,6 +8,9 @@ Inicio
 		cant = cant + 1
 	Fin mientras
 	
+	i = 0
+	Mientras i < cant
+		
 
 
 

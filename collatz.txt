@@ -1,0 +1,12 @@
+Inicio
+	Entero n
+	Leer n
+	Mientras n != 1
+		Si n %2 == 0 Entonces
+			n = n / 2
+		Si no
+			n = 3*n + 1
+		Fin si
+		Escribir n
+	Fin Mientras
+Fin
